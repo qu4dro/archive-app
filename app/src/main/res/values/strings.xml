@@ -2,4 +2,5 @@
     <string name="app_name">archive</string>
     <string name="home">Home</string>
     <string name="bookmarks">Bookmarks</string>
+    <string name="search">Search</string>
 </resources>

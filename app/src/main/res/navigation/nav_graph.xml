@@ -6,8 +6,18 @@
     app:startDestination="@id/homeFragment">
 
     <fragment
-        tools:layout="@layout/fragment_home"
         android:id="@+id/homeFragment"
         android:name="ru.orlov.archive.ui.fragments.home.HomeFragment"
-        android:label="HomeFragment" />
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="ru.orlov.archive.ui.fragments.search.SearchFragment"
+        android:label="SearchFragment"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/bookmarksFragment"
+        android:name="ru.orlov.archive.ui.fragments.bookmarks.BookmarksFragment"
+        android:label="BookmarksFragment"
+        tools:layout="@layout/fragment_bookmarks" />
 </navigation>
